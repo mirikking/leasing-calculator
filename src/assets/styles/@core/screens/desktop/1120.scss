@@ -1,0 +1,19 @@
+@media 
+    (min-width: 1120px) and (max-width: 1439px)
+        {
+            .car-price,
+            .first-pay,
+            .leasing-time,
+            .sum-offer,
+            .monthly-pay,
+            .request-offer {
+                width: 32%!important;
+            }
+            .ui-inputs {
+                width: 100%!important;
+            }
+            .price-offer,
+            .config-offer {
+                width: 100%;
+            }
+}

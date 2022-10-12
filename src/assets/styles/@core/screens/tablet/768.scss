@@ -1,0 +1,21 @@
+@media 
+    (min-width: 768px) and (max-width: 1119px)
+        {
+           .config-offer {
+                flex-direction: column;
+                width: 100%;
+           }
+
+           .car-price,
+           .first-pay,
+           .leasing-time {
+                width: 100%;
+                .ui-inputs {
+                    width: 100%;
+                }
+           }
+
+           .price-offer {
+                flex-wrap: wrap;
+           }
+}

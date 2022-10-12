@@ -1,0 +1,52 @@
+@media 
+    (min-width: 320px) and (max-width: 767px)
+        {
+           .config-offer {
+                flex-direction: column;
+                width: 100%;
+           } 
+
+           .offer-msg {
+            font-weight: 900;
+            font-size: 34px;
+            line-height: 90%;
+            }
+
+            .sum-offer h1,
+            .monthly-pay h1 {
+                font-style: normal;
+                font-weight: 900;
+                font-size: 22px; 
+                line-height: 20px; 
+            }
+
+           .car-price,
+           .first-pay,
+           .leasing-time {
+                width: 100%;
+                .ui-inputs {
+                    width: 100%;
+                }
+           }
+
+           .price-offer {
+                flex-wrap: wrap;
+                width: 95%;
+           }
+
+           .request-offer {
+                width: 100%;
+                .ui-button {
+                    width: 100%;
+                }
+           }
+           .calculator-main {
+            box-sizing: border-box;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+}

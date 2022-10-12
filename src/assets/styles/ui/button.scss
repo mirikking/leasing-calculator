@@ -1,0 +1,48 @@
+.ui-button {
+	cursor: pointer;
+	width: 426px;
+	height: 68px;
+	background: #FF9514;
+	border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	color: #FFFFFF;
+	transition: all 0.5s;
+	&:disabled {
+		cursor: default;
+		background: #FF9514;
+	}
+	&:hover {
+		&:enabled {
+			background: #111111;
+		}
+	}
+	&:focus {
+		&:enabled {
+			background: #575757;
+		}
+	}
+}
+.ui-button-preloading {
+	opacity: 0;
+}
+
+.ui-button-text {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 36px;
+}
+
+@media 
+    (max-width: 767px) {
+		.ui-button-text {
+            font-style: normal;  
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 20px;
+        }
+	}
